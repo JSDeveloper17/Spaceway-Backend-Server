@@ -13,3 +13,4 @@ const SupportTicketSchema = new mongoose.Schema(
 export const SupportTicket = mongoose.model('SupportTicket', SupportTicketSchema)
 
 
+
