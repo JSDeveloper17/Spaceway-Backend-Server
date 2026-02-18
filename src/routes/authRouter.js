@@ -4,7 +4,7 @@ const authRouter = express.Router()
 
 
 authRouter.post("/login")
-authRouter.post("/register")
+
 
 
 
