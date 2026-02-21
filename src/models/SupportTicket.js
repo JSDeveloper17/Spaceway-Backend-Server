@@ -7,7 +7,7 @@ const SupportTicketSchema = new mongoose.Schema(
 		message: { type: String, required: true },
 		status: { type: String, enum: ['open', 'closed'], default: 'open' },
 	},
-	{ timestamps: true }
+	{ timestamps: true, versionKey : false }
 )
 
 export const SupportTicket = mongoose.model('SupportTicket', SupportTicketSchema)
